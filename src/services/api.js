@@ -1,6 +1,5 @@
 import axios from 'axios';
 const BASE_URL = 'https://61aa183ebfb110001773f09f.mockapi.io';
-// https://61aa183ebfb110001773f09f.mockapi.io/api/v1
 
 export const getAllContacts = async () => {
   const data = await axios.get(`${BASE_URL}/contacts`).then(({ data }) => {
